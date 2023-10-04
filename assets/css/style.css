@@ -30,7 +30,6 @@ body {
 body > header {
   background-color: #2e8b57;
   display: flex;
-  flex-shrink: 1;
 }
 
 header > div {
@@ -38,12 +37,12 @@ header > div {
   align-items: center;
 }
 
-header > div > a {
+#Logo {
   padding-left: 0.5rem;
   padding-top: 0.5rem;
 }
 
-header > div > img {
+.Perfil {
   color: #d9d9d9;
   width: 2.6875rem;
   height: 2.9375rem;
@@ -56,4 +55,9 @@ nav {
   font-size: 0.8rem;
   font-weight: 400;
   padding: 0.5rem;
+}
+
+.link {
+  color: #d9d9d9;
+  text-decoration: none;
 }
