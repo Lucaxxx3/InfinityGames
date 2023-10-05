@@ -5,10 +5,10 @@ main > div {
   justify-content: center;
 }
 
-main > section{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+main > section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 main > section > article > input {
@@ -18,7 +18,7 @@ main > section > article > input {
   background-color: #2e8b57;
   border-radius: 10px;
   padding: 1rem;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 4px #00000040);
 }
 
 ::placeholder {
@@ -31,6 +31,24 @@ main > section > article > input {
   text-align: start;
 }
 
-.Email{
-    margin-bottom: 1rem;
+.Email {
+  margin-bottom: 1rem;
+}
+
+main > section > a > button {
+  color: #d9d9d9;
+  background-color: #225362;
+  margin-top: 9rem;
+  width: 8rem;
+  height: 2.75rem;
+  border-radius: 15px;
+  filter: drop-shadow(0px 4px 4px #00000040);
+}
+
+#cad {
+  margin-left: 1rem;
+}
+
+#conec{
+  margin-right: 1rem;
 }
