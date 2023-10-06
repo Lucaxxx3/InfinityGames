@@ -9,15 +9,12 @@
 
 body > header {
   background-color: #2e8b57;
-  display: flex;
-  flex-shrink: 1;
-  justify-content: space-between;
 }
 
-header > div > div {
+header > div {
   display: flex;
   align-items: center;
-  
+  justify-content: space-between;
 }
 
 #cabeçalho {
@@ -32,8 +29,7 @@ header > div > div {
 
 .Perfil {
   color: #d9d9d9;
-  display: flex;
-  justify-content: flex-end;
+  padding-right: 1rem;
 }
 
 nav {

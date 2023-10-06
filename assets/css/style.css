@@ -29,12 +29,25 @@ body {
 
 body > header {
   background-color: #2e8b57;
+}
+
+#final {
   display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+#login {
+  width: 3.5rem;
+  height: 5rem;
+  fill: #d9d9d9;
+  margin-right: 0.5rem;
 }
 
 header > div {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 #Logo {
@@ -43,10 +56,10 @@ header > div {
 }
 
 .Perfil {
+  margin-top: 0.5rem;
   color: #d9d9d9;
-  width: 2.6875rem;
-  height: 2.9375rem;
-  margin-left: 13rem;
+  margin-right: 1rem;
+  margin-left: 0.5rem;
 }
 
 nav {
