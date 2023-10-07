@@ -1,8 +1,39 @@
-var carrossel = document.querySelector('div.carrossel')
-var thumbs = document.querySelectorAll('thumbs')
+/*const slider = document.querySelector('div.carrossel')*/
+const slider = document.querySelectorAll('img.thumbs')
+const right = document.getElementById('btn-r')
+const left = document.getElementById('btn-l')
 
-thumbs.forEach(thumb => {
-    thumb.addEventListener("click", () => {
-        carrossel.style.backgroundImage = url`(${thumb.src})`
-    });
-})
+let currentSlide = 0
+
+function hideSlider() {
+    slider.forEach(item => item.classList.remove('on'))
+}
+
+function showSlider() {
+    slider[currentSlide].classList.add('on')
+}
+
+function nextSlider(){
+    hideSlider()
+    if(currentSlide === slider.length -1) {
+        currentSlide = 0
+    } else {
+        currentSlide++
+    }
+    showSlider()
+}
+
+function prevSlider(){
+    hideSlider()
+    if(currentSlide === 0){
+        currentSlide = slider.length -1
+    } else {
+        currentSlide--
+    }
+
+    showSlider()
+}
+
+console.log(slider)
+left.addEventListener('click', () => prevSlider)
+right.addEventListener('click', () => nextSlider)
