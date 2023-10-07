@@ -36,7 +36,7 @@ main > section > article > input {
   margin-bottom: 1rem;
 }
 
-main > section + div > a > button {
+main > section + div > a > input {
   color: #d9d9d9;
   background-color: #225362;
   margin-top: 9rem;

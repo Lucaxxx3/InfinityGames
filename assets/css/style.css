@@ -38,10 +38,8 @@ body > header {
 }
 
 #login {
-  width: 3.5rem;
-  height: 5rem;
-  fill: #d9d9d9;
   margin-right: 0.5rem;
+  cursor: pointer;
 }
 
 header > div {
@@ -56,10 +54,11 @@ header > div {
 }
 
 .Perfil {
-  margin-top: 0.5rem;
-  color: #d9d9d9;
+  width: 2.75rem;
+  height: 3.25rem;
   margin-right: 1rem;
   margin-left: 0.5rem;
+  cursor: pointer;
 }
 
 nav {
@@ -73,4 +72,5 @@ nav {
 .link {
   color: #d9d9d9;
   text-decoration: none;
+  cursor: pointer;
 }
