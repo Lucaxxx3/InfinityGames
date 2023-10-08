@@ -1,5 +1,49 @@
-@import url("../css/style.css");
+@import url("assets/css/style.css");
 
-#profile{
-    
+
+#foto{
+    display: flex ;
+   justify-content: center;
+    margin-bottom: 1.38rem ;
+    margin-top: 1.06rem;
+}
+ 
+.card{
+ 
+    background-color: #2e8b57b3;
+    display: flex;
+    width: 23.5rem;
+    height: 31.19rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    flex-direction: column;
+}
+ 
+#card{
+    display: flex;
+    justify-content: center;
+}
+ 
+ 
+#botao{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+ 
+#senha, #editar{
+    color: #d9d9d9;
+    background-color: #225362;
+    margin-top: 2rem;
+    width: 8rem;
+    height: 2.75rem;
+    border-radius: 15px;
+    filter: drop-shadow(0px 4px 4px #00000040);
+    padding: 0.5rem;
+    margin: 1rem;
+}
+ 
+#infos{
+   padding: 0.5rem;
+ 
 }

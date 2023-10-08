@@ -1,1 +1,63 @@
 @import url("../css/style.css");
+
+.description img {
+	width: 100%;
+}
+
+.promotions h2 {
+  margin-top: 20px;
+}
+
+.promotions {
+  background-color: #2e8b57b3;
+  padding: 0.5rem;
+  border-radius: 20px;
+  flex-direction: column;
+  margin: 0.5rem;
+	padding-bottom: 8rem;
+}
+
+.promotions .game {
+  border-radius: 15px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #2e8b57;
+}
+
+.promotions .game img {
+  padding: 0.5rem;
+}
+
+.game-details {
+	width: fit-content;
+}
+
+.left {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+.right{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.title{
+	padding-top: 0.5rem;
+}
+
+.date{
+	padding-bottom: 0.5rem;
+}
+
+.date, .older{
+	font-size: 0.75rem;
+}
+
+.title, .new, .off {
+	font-size: 1.25rem;
+}

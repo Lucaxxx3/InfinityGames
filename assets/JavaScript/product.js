@@ -1,4 +1,3 @@
-/*const slider = document.querySelector('div.carrossel')*/
 const slider = document.querySelectorAll('img.thumbs');
 const right = document.getElementById('btn-r');
 const left = document.getElementById('btn-l');

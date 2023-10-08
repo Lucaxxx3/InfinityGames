@@ -1,4 +1,4 @@
-@import url('../css/style.css');
+@import url('assets/css/style.css');
 
 main {
   padding: 0.5rem;
@@ -150,7 +150,7 @@ body > main > div > button > img {
   width: 6rem;
   border-radius: 10px;
   justify-content: center;
-  opacity: 0;
+  opacity: 0.75;
   transition: opacity 0.2s;
 }
 
@@ -170,8 +170,11 @@ body > main > div > button > img {
 }
 
 .big-img {
-  width: 400px;
-  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 850px;
+  height: 200px;
+  border-radius: 15px;
 }
 
 .carrossel {
